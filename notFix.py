@@ -10,7 +10,7 @@ df = spark.read.format("csv").option("header", "true").load("death-rates-from-ai
 df = df.filter(df.Entity == "Indonesia")
 
 # hapus kolom-kolom yang tidak dibutuhkan
-df = df.drop("Code", "Entity")
+df = df.drop("Code")
 
 # ubah nama kolom
 df = df.withColumnRenamed("Year", "Tahun").withColumnRenamed("Air pollution (total) (deaths per 100,000)", "Jumlah Kematian")
