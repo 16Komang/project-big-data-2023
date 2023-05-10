@@ -4,7 +4,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("Contoh Program Apache Spark").getOrCreate()
 
 # baca file CSV
-df = spark.read.csv("file:///home/cloudera/spark-2.0.0-bin-hadoop2.7/death-rates-from-air-pollution.csv", header=True, inferSchema=True)
+df = spark.read.csv("/home/cloudera/spark-2.0.0-bin-hadoop2.7/death-rates-from-air-pollution.csv", header=True, inferSchema=True)
 
 # filter data untuk daerah Indonesia
 df = df.filter(df.Entity == "Indonesia")

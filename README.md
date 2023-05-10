@@ -4,3 +4,17 @@
 - Komang Gede Narariya Suputra (10)
 # Air Polution di Indonesia
 ![Screenshot](images/airpolution.png)
+# Membaca file CSV
+![Screenshot](images/tabelAwal.png)
+# Filter data untuk daerah Indonesia
+![Screenshot](images/tabel.png)
+# Hapus kolom-kolom yang tidak dibutuhkan
+![Screenshot](images/dropTableCode.png)
+# Mengubah nama kolom
+![Screenshot](images/mengubahNamaKolom.png)
+# Mengurutkan data berdasarkan tahun secara ascending
+![Screenshot](images/mengurutkanSecaraASC.png)
+# Megatur ulang indeks setelah diurutkan
+![Screenshot](images/mengaturIndex.png)
+# Menampilkan lima data pertama
+![Screenshot](images/hasil.png)
