@@ -22,5 +22,10 @@ df = df.orderBy("Tahun")
 from pyspark.sql.functions import monotonically_increasing_id
 df = df.withColumn("index", monotonically_increasing_id()).drop("index")
 
+# membuat file csv setelah di proses
+df.write.csv("file:///home/cloudera/spark-2.0.0-bin-hadoop2.7/death-rates-from-air-pollution-terbaru.csv", header=True)
+df = spark.read.csv("file:///home/cloudera/spark-2.0.0-bin-hadoop2.7/death-rates-from-air-pollution-terbaru.csv", header=True, inferSchema=True)
+df.show()
+
 # tampilkan lima data pertama
 df.show(5)
