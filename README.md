@@ -18,3 +18,6 @@
 ![Screenshot](images/mengaturIndex.png)
 # Menampilkan lima data pertama
 ![Screenshot](images/hasil.png)
+
+# Hasil Akhir Diagram Batang
+![Screenshot](images/diagram.png)
