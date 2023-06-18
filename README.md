@@ -22,7 +22,7 @@
 # Hasil Akhir Diagram Batang
 ![Screenshot](images/diagram.png)
 
-# Hasil Akhir Diagram LinierRegresion
+# Hasil Akhir Diagram LinierRegression
 ![Screenshot](images/Regresilinier.png)
 
 # Prediksi tahun 2022
